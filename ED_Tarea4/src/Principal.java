@@ -27,7 +27,7 @@ public class Principal {
 		//Los parámetros se almacenan en un HashMap, para posteriormente crear el jprint (JasperPrint)
 		//añadiendo los parámetros (título, autor y fecha)
 		Map<String, Object> params = new HashMap<String, Object>();
-		params.put("titulo", "RESUMEN DATOS DE DEPARTAMENTOS.");
+		params.put("titulo", "RESUMEN DATOS DE LOS DEPARTAMENTOS.");
 		params.put("autor", "ARM");
 		params.put("fecha", (new java.util.Date()).toString());
 
